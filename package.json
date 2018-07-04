@@ -16,7 +16,8 @@
     "test": "mocha --require babel-core/register",
     "cover": "istanbul cover _mocha --report lcovonly -- --require babel-core/register -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "lint": "eslint lib test",
-    "lint:fix": "eslint --fix lib test"
+    "lint:fix": "eslint --fix lib test",
+    "documentationjs": "./node_modules/documentation/bin/documentation.js build lib/ -f html -o docs --shallow"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
     "coveralls": "^3.0.2",
+    "documentation": "^8.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
