@@ -1,1 +1,2 @@
 # example-module
+[![CircleCI](https://circleci.com/gh/bote795/example-module/tree/master.svg?style=svg&circle-token=a71663ee332c1ff186619f106f357e81b4a24505)](https://circleci.com/gh/bote795/example-module/tree/master)
